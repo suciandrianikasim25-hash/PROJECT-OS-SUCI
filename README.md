@@ -72,5 +72,6 @@ chmod +x operasi_file.sh
 ~~~
 Penjelasan:
 - find.-maxdepth 1 -type f -name "*.ext" -> mencari file berdasarkan ekstensi di direktori saat ini
-- 
+- -exec mv {} folder/; _> memindahkan file hasil pencarian ke folder sesuai.
+- chmod +x _> memberi izin eksekusi ke script.
 
