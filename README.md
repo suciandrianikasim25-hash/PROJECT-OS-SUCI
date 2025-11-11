@@ -7,7 +7,7 @@ Project Based Learing 1
 ~~~
 #ubuntu@suci:~ mkdir project_1
 ~~~
-# Berikut contoh perintah berpindah direktori ke project_1 dan membuat folder document images archives logs
+# Berikut contoh perintah berpindah direktori ke project_1 dan membuat folder documents images archives logs
 (Deskripsi gambar)
 # https://github.com/suciandrianikasim25-hash/PROJECT-OS-SUCI/edit/main/README.md
 ~~~
@@ -35,4 +35,42 @@ echo "Data gambar" >> file11.jpg
 echo "Log sistem contoh" >> file20.log
 ~~~
 Penjelasan:
--`mkdir` membuat folder baru.
+- `mkdir` : membuat folder baru.
+- touch : membuat file kosong dengan cepat.
+- echo : menulis teks ke dalam file.
+# LANGKAH 2 SCRIPT OPERASI FILE
+# Buat script organisasi file di dalam direktori projek:
+~~~
+nano operasi_file.sh
+~~~
+# ISI SCRIPT
+(Deskripsi gambar)
+# https://github.com/suciandrianikasim25-hash/PROJECT-OS-SUCI/edit/main/README.md
+~~~
+#!/bin/bash
+# Script untuk mengorganisasi file berdasarkan ekstensi
+
+# Pastikan berada di direktori proyek
+cd ~/project_1
+
+# Pindahkan file sesuai ekstensi
+find . -maxdepth 1 -type f -name "*.txt" -exec mv {} documents/ \;
+find . -maxdepth 1 -type f -name "*.jpg" -exec mv {} images/ \;
+find . -maxdepth 1 -type f -name "*.pdf" -exec mv {} archives/ \;
+find . -maxdepth 1 -type f -name "*.log" -exec mv {} logs/ \;
+
+# Konfirmasi hasil
+echo "File berhasil dipindahkan ke folder sesuai ekstensi!"
+ls documents images archives logs
+~~~
+# Beri hak eksekusi:
+~~~
+chmod +x operasi_file.sh
+~~~
+~~~
+./operasi_file.sh
+~~~
+Penjelasan:
+- find.-maxdepth 1 -type f -name "*.ext" -> mencari file berdasarkan ekstensi di direktori saat ini
+- 
+
