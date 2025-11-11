@@ -3,7 +3,7 @@ Project Based Learing 1
 # LANGKAH 1 BUAT STRUKTUR DIREKTORI
 # Berikut contoh membuat direktori project_1
 #(Deskripsi gambar)
-# (https://drive.google.com/file/d/1JeZv1lcV2U1iQLOGjr-7nM6cOL7ro_tS/view?usp=sharing)
+# https://drive.google.com/file/d/1JeZv1lcV2U1iQLOGjr-7nM6cOL7ro_tS/view?usp=sharing
 ~~~
 #ubuntu@suci:~ mkdir project_1
 ~~~
@@ -18,13 +18,13 @@ mkdir document images archives  logs
 ~~~
 # Berikut contoh perintah membuat 20 file sample:
 (Deskripsi gambar)
-# https://github.com/suciandrianikasim25-hash/PROJECT-OS-SUCI/edit/main/README.md
+# https://drive.google.com/file/d/1Njwoh8yoacDnYm7sNQ0WzWtCIY3Nr0pt/view?usp=sharing
 ~~~
 touch file{1..10}.txt file{11..15}.jpg file{16..18}.pdf file(19..20}.log
 ~~~
 # Berikut contoh perintah memasukkan sebuah teks ke masing-masing file yang berbeda
 (Deskripsi gambar)
-# https://github.com/suciandrianikasim25-hash/PROJECT-OS-SUCI/edit/main/README.md
+# https://drive.google.com/file/d/1B_jXqUUEJRkn6Q5nufea9q9gCiIPkh5O/view?usp=sharing
 ~~~
 echo "Contoh dokumen" > file1.txt
 ~~~
@@ -45,7 +45,7 @@ nano operasi_file.sh
 ~~~
 # ISI SCRIPT
 (Deskripsi gambar)
-# https://github.com/suciandrianikasim25-hash/PROJECT-OS-SUCI/edit/main/README.md
+# https://drive.google.com/file/d/1y0blORhmEp0gPxiAibnEPNaTDE734QYg/view?usp=sharing
 ~~~
 #!/bin/bash
 # Script untuk mengorganisasi file berdasarkan ekstensi
@@ -81,7 +81,7 @@ _Karena saya sudah punya script pencarian file yang bisa mencari berdasarkan nam
 nano search_file.sh
 ~~~
 (Deskripsi gambar)
-# https://github.com/suciandrianikasim25-hash/PROJECT-OS-SUCI/edit/main/README.md
+# https://drive.google.com/file/d/1krVZWSocRbHeokBRfgWb0-H_3Q9oRGUj/view?usp=sharing
 ~~~
 #!/bin/bash
 # Script: search_file.sh
@@ -128,7 +128,7 @@ Penjelasan:
 _Script ini akan membuat laporan statistik tentang file di direktori proyek, lalu menyimpannya ke report.txt._
 # Buat file report.sh
 (Deskripsi gambar)
-# https://github.com/suciandrianikasim25-hash/PROJECT-OS-SUCI/edit/main/README.md
+# https://drive.google.com/file/d/1lYowHdDH-SapyfJgHHtzgt2pp60wCHgW/view?usp=sharing
 ~~~
 #!/bin/bash
 # Script: generate_report.sh
