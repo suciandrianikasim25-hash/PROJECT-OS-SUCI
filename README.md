@@ -3,13 +3,13 @@ Project Based Learing 1
 # LANGKAH 1 BUAT STRUKTUR DIREKTORI
 # Berikut contoh membuat direktori project_1
 #(Deskripsi gambar)
-# https://github.com/suciandrianikasim25-hash/PROJECT-OS-SUCI/edit/main/README.md
+# [https://github.com/suciandrianikasim25-hash/PROJECT-OS-SUCI/edit/main/README.md](https://drive.google.com/file/d/1JeZv1lcV2U1iQLOGjr-7nM6cOL7ro_tS/view?usp=sharing)
 ~~~
 #ubuntu@suci:~ mkdir project_1
 ~~~
 # Berikut contoh perintah berpindah direktori ke project_1 dan membuat folder documents images archives logs
 (Deskripsi gambar)
-# https://github.com/suciandrianikasim25-hash/PROJECT-OS-SUCI/edit/main/README.md
+# https://drive.google.com/file/d/1JeZv1lcV2U1iQLOGjr-7nM6cOL7ro_tS/view?usp=sharing
 ~~~
 cd project_1
 ~~~
@@ -121,9 +121,9 @@ esac
 chmod +x search_file.sh
 ~~~
 Penjelasan:
-- find . -type f -name "*.txt" → mencari file dengan pola nama tertentu.
-- find . -size +1M → mencari file berukuran lebih dari 1 MB.
-- grep -r "teks" → mencari teks di dalam isi file secara rekursif.
+- `find . -type f -name "*.txt"` → mencari file dengan pola nama tertentu.
+- `find . -size +1M` → mencari file berukuran lebih dari 1 MB.
+- `grep -r "teks"` → mencari teks di dalam isi file secara rekursif.
 # LANGKAH 4 - Generate laporan file sistem
 _Script ini akan membuat laporan statistik tentang file di direktori proyek, lalu menyimpannya ke report.txt._
 # Buat file report.sh
@@ -175,6 +175,6 @@ _Jadi, ketika dijalankan perintah (./report.sh) maka laporan akan otomatis tersi
 cat report.sh
 ~~~
 Penjelasan:
-- find . -type f -name "*.txt" → mencari file dengan pola nama tertentu.
-- find . -size +1M → mencari file berukuran lebih dari 1 MB.
-- grep -r "teks" → mencari teks di dalam isi file secara rekursif.
+- `find . -type f -name "*.txt"` → mencari file dengan pola nama tertentu.
+- `find . -size +1M` → mencari file berukuran lebih dari 1 MB.
+- `grep -r "teks"` → mencari teks di dalam isi file secara rekursif.
