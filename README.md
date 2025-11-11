@@ -3,13 +3,13 @@ Project Based Learing 1
 # LANGKAH 1 BUAT STRUKTUR DIREKTORI
 # Berikut contoh membuat direktori project_1
 #(Deskripsi gambar)
-# [https://github.com/suciandrianikasim25-hash/PROJECT-OS-SUCI/edit/main/README.md](https://drive.google.com/file/d/1JeZv1lcV2U1iQLOGjr-7nM6cOL7ro_tS/view?usp=sharing)
+# (https://drive.google.com/file/d/1JeZv1lcV2U1iQLOGjr-7nM6cOL7ro_tS/view?usp=sharing)
 ~~~
 #ubuntu@suci:~ mkdir project_1
 ~~~
 # Berikut contoh perintah berpindah direktori ke project_1 dan membuat folder documents images archives logs
 (Deskripsi gambar)
-# https://drive.google.com/file/d/1JeZv1lcV2U1iQLOGjr-7nM6cOL7ro_tS/view?usp=sharing
+# https://drive.google.com/file/d/19Px5AKsXT6CBcp9lNxev7VLi-EevxhLk/view?usp=sharing
 ~~~
 cd project_1
 ~~~
